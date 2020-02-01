@@ -3,12 +3,12 @@
 from info import BoardMultipliers, LetterValues
 import re, copy
 
-with open('words_English_International.txt', 'r') as file:
+with open('words_SOWPODS', 'r') as file:
     AllWords = [line.rstrip('\n') for line in file]
 
 AllWords = [Word.lower() for Word in AllWords]
 
-with open('blacklist_English_International.txt', 'r') as file:
+with open('blacklist_SOWPODS', 'r') as file:            # Only useful if you're using a list of words that isn't used by wordfeud, every word in SOWPODS works in the game, so this really isn't necessary
     Blacklist = [line.rstrip('\n') for line in file]
 
 def worth(x):
