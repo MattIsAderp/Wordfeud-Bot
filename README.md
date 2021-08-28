@@ -9,4 +9,4 @@ that Wordfeud didn't accept, which is why I added a blacklist for words.
 
 Please ONLY this for regular games or learning purposes, do NOT use this for tournaments.
 
-This is my first repository on github, so any comments on how to improve would be greatly appreciated! :)
+This is my first repository on github, and also one of my first python projects, so any comments on how to improve would be greatly appreciated! :)
